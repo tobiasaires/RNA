@@ -143,3 +143,5 @@ lib64/
 /share
 /include
 /bin
+rna
+.DS_STORE
