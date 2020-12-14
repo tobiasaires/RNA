@@ -16,7 +16,7 @@ class Perceptron:
                 y_hat = self.predict(X[n])
                 if y_hat != y[n]:
                     self.w = self.w + np.multiply(y[n], X[n])
-                y_calc.append(y_hat) 
+                # y_calc.append(y_hat) 
         return self.w
 
 def plot(x1, x2, clf, title):
